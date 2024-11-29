@@ -159,7 +159,15 @@
 @media screen and (max-width:650px) {
      
 
-   
+    .conteneur_bg span .arrowleft{
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    
+    .conteneur_bg span .arrowright{
+        font-size: 25px;
+        margin-left: 10px;
+    }
 
     .background1 button,.background2 button,.background3 button,.background4 button{
         padding: 10px;
