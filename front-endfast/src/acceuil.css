@@ -148,11 +148,7 @@
 }
 
 @media screen and (max-width:650px) {
-    .background1 button,.background2 button,.background3 button,.background4 button{
-        position: absolute;
-        bottom: 10px;
-        left: 60px;
-    } 
+     
 
     .conteneur_bg span .arrowleft{
         font-size: 20px;
@@ -166,7 +162,7 @@
 
     .background1 button,.background2 button,.background3 button,.background4 button{
         padding: 10px;
-        width: 30%;
+        width: 50%;
         font-size: 20px;
         color: white;
         background-color: rgba(50, 50, 245,0.5);
@@ -177,5 +173,25 @@
         align-items: center;
         
     }
+
+    .background1 div,.background2 div,.background3 div,.background4 div{
+        width: 90%;
+        height: 50px;
+        margin: auto;
+        margin-top: 150px;
+        text-align: left;
+      }
+
+        
+    
+    
+    
+    .background1 p,.background2 p,.background3 p,.background4 p{
+        width: 90%;
+        color: white;
+        font-size: 15px;
+        line-height: 25px;
+        opacity: 0.6;
+    } 
 }
 
