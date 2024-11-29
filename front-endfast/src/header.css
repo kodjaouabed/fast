@@ -112,6 +112,16 @@ header .menu_container ul a{
 
 
   @media screen and (max-width:1000px) {
+    header .conteneur_header {
+      width: 90%;
+      height: 50px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+
     header .conteneur_header nav {
       display: none;
   }
@@ -126,13 +136,13 @@ header .menu_container ul a{
     color:rgba(50, 50, 245,1);
     background-color:white;
     padding:10px;
-    font-size: 30px;
+    font-size: 20px;
     border-radius:50px;
     cursor:pointer;
   }
 
   header .conteneur_header img{
-    width:120px;
-    height:120px;
+    width:100px;
+    height:100px;
   }
 }
