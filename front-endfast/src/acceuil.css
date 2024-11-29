@@ -1,0 +1,181 @@
+.conteneur_bg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+}
+
+
+.background1{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(50, 50, 245,0.5),rgba(0, 0, 0, 0.5)), url(bg1.png) no-repeat center/cover;
+    position: absolute;
+    opacity: 1;
+    
+}
+
+
+.background1 div,.background2 div,.background3 div,.background4 div{
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  margin-top: 250px;
+  text-align: left;
+}
+
+.background1 h2,.background2 h2,.background3 h2,.background4 h2{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-weight: 900;
+    opacity: 0.6;
+}  
+.background1 button,.background2 button,.background3 button,.background4 button{
+    padding: 20px;
+    width: 30%;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(50, 50, 245,0.5);
+    border: 1px solid rgba(50, 50, 245,0.5);
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+
+.background1 p,.background2 p,.background3 p,.background4 p{
+    width: 80%;
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.6;
+} 
+
+.background2{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(50, 50, 245,0.5),rgba(0, 0, 0, 0.5)), url(bg2.png) no-repeat center/cover;
+    position: absolute;
+    opacity: 0;
+}
+
+
+
+.background3{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(50, 50, 245,0.5),rgba(0, 0, 0, 0.5)), url(bg1.png) no-repeat center/cover;
+    position: absolute;
+    opacity: 0;
+}
+
+
+  
+
+
+.background4{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(50, 50, 245,0.5),rgba(0, 0, 0, 0.5)), url(bg2.png) no-repeat center/cover;
+    position: absolute;
+    opacity: 0;
+}
+
+
+  
+
+.active{
+    opacity: 1;
+}
+
+
+.conteneur_bg span .arrowleft{
+    color: white;
+    background-color: rgba(50, 50, 245,0.5);
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.conteneur_bg span .arrowright{
+    color: white;
+    background-color: rgba(50, 50, 245,0.5);
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.conteneur_bg span{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    
+}
+
+.plus{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .background1 h2,.background2 h2,.background3 h2,.background4 h2{
+        font-size: 40px;
+    }
+
+    .background1 button,.background2 button,.background3 button,.background4 button{
+        margin-top: 65px;
+    } 
+    
+}
+
+@media screen and (max-width:900px) {
+    .background1 h2,.background2 h2,.background3 h2,.background4 h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .conteneur_bg span{
+        position: absolute;
+        bottom: 0px;
+        right: 60px;
+        
+    }
+}
+
+@media screen and (max-width:650px) {
+    .background1 button,.background2 button,.background3 button,.background4 button{
+        position: absolute;
+        bottom: 10px;
+        left: 60px;
+    } 
+
+    .conteneur_bg span .arrowleft{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    .conteneur_bg span .arrowright{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .background1 button,.background2 button,.background3 button,.background4 button{
+        padding: 10px;
+        width: 30%;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(50, 50, 245,0.5);
+        border: 1px solid rgba(50, 50, 245,0.5);
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
